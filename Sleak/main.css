@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.hero {
+	background: black;
+	min-height: 800px;
+	position: relative;
+}
+
+.triangle {
+	color: white;
+	border-bottom: 300px solid transparent;
+	border-left: 70vw solid white;
+	border-top: 300px solid transparent;
+    height: 0px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 0px;
+
+}
+
+.txt {
+	color: black;
+	left: 150px;
+	position: absolute;
+	transform: translateY(-50%);
+    top: 50%;
+}
